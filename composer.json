@@ -1,0 +1,30 @@
+{
+  "name": "bogdancondorachi/kirby-colour-swatch-field",
+  "description": "Colour swatch field for Kirby CMS",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bogdancondorachi/kirby-colour-swatch-field",
+  "authors": [
+    {
+      "name": "Bogdan Condorachi",
+      "email": "bogdan.condorachi@gmail.com",
+      "homepage": "https://plugins.getkirby.com/bogdancondorachi"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.0 <8.5.0",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "conflict": {
+    "getkirby/cms": "<4.0 || >=6.0"
+  },
+  "extra": {
+    "installer-name": "colour-swatch-field"
+  }
+}

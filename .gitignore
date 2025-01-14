@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+
+# Development files
+/node_modules
+/vendor
+/tests
+
+# Temporary files
+index.dev.mjs
+composer.lock
+package-lock.json
